@@ -268,6 +268,7 @@ ul,ol{
 .text-link > span {
 	position: relative;
 	z-index: 1;
+	color: #fff;
 }
 
 .text-link:hover > span {
@@ -281,7 +282,7 @@ ul,ol{
 	left: 0;
 	width: 100%;
 	height: 0%;
-	background-color: #FFD626;
+	background-color: transparent;
 	z-index: -1;
 	-webkit-transition: 0.2s height;
 	transition: 0.2s height;
@@ -290,7 +291,23 @@ ul,ol{
 .text-link:hover > span:after {
 	height: 100%;
 }
-
+span.fab:hover{
+	color: #fff !important;
+}
+.fa-facebook:before{
+	color: #fff;
+}
+.fa-instagram:before{
+	color: #fff;
+}
+.fa-linkedin-in:before{
+	color: #fff;
+}
+a.me-shume{
+	color: #fdd115;
+font-size: 15px;
+text-decoration: underline;
+}
 /* --  Input  -- */
 
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
@@ -338,6 +355,8 @@ textarea {
 	margin-bottom: 0px;
 	border-radius: 0px;
 	border: none;
+	padding-top: 5px;
+padding-bottom: 5px;
 }
 
 #header .nav li a:hover , #header .nav li a:focus {
@@ -374,7 +393,7 @@ textarea {
 /* --- Main Navigation --- */
 
 #main-navbar {
-	background-color: #FFF;
+	background-color: #004;
 }
 
 #main-navbar.fixed-navbar {
@@ -615,7 +634,7 @@ textarea {
 	background: transparent;
 	padding: 15px 10px;
 	line-height: 20px;
-	color: #004;
+	color: #fff !important;
 }
 
 .navbar-search .search-form {
@@ -1261,7 +1280,7 @@ textarea {
 	top: 3px;
 	right: 3px;
 	bottom: 3px;
-	padding: 0px 20px;
+	padding: 0px 6px;
 	background: #FFD626;
 	border: none;
 	color: #004;
